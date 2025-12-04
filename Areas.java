@@ -27,18 +27,18 @@ public class Areas{
                 System.out.println("El área es: "+AreaTriangulo.computearea(h, b));
                 break;
             case 4:
-                System.out.println("Ingrese el perimetro: ");
-                double p = ed.nextDouble();
-                System.out.println("Ingrese la apotema ");
+                System.out.println("Ingrese un lado: ");
+                l = ed.nextDouble();
+                System.out.println("Ingrese la apotema: ");
                 double a = ed.nextDouble();
-                System.out.println("El área es: "+AreaPentagono.computearea(p, a));
+                System.out.println("El área es: "+AreaPentagono.computearea(l, a));
                 break;
             case 5:
-                System.out.println("Ingrese el perimetro: ");
-                 p = ed.nextDouble();
-                System.out.println("Ingrese la apotema ");
+                System.out.println("Ingrese un lado: ");
+                 l = ed.nextDouble();
+                System.out.println("Ingrese la apotema: ");
                  a = ed.nextDouble();
-                System.out.println("El área es: "+AreaHexagono.computearea(p, a));
+                System.out.println("El área es: "+AreaHexagono.computearea(l, a));
                 break;
             default:
                 System.out.println("Opcion no valida");

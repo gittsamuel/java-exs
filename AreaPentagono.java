@@ -1,6 +1,6 @@
 public class AreaPentagono {
 
-     public static double computearea(double p, double a){
-        return (p*a)/2;
+     public static double computearea(double l, double a){
+        return ((5*l)*a)/2;
      }
 }
